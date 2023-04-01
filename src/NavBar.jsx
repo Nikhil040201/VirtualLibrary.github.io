@@ -15,7 +15,7 @@ function NavBar() {
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav links ">
                             <li className="nav-item">
-                                <NavLink to="/" end className="nav-link">Home</NavLink>
+                                <NavLink to="/home" end className="nav-link">Home</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to="/library" className="nav-link">Library</NavLink>

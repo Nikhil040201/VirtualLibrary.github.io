@@ -2,6 +2,7 @@ import Library from "./Library";
 import Home from "./Home";
 import About from "./About";
 import Contacts from "./Contacts";
+import Login from "./login";
 import Year1 from "./Year1";
 import Year2 from "./Year2";
 import Year3 from "./Year3";
@@ -14,7 +15,8 @@ function App() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/" element={<Login />} />
+                <Route path="/home" element={<Home />} />
                 <Route path="/1st_year" element={<Year1 />} />
                 <Route path="/2nd_year" element={<Year2 />} />
                 <Route path="/3rd_year" element={<Year3 />} />
